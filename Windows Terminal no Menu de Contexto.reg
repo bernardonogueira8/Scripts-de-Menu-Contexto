@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminal do Windows]
+@="Terminal do Windows"
+"Icon"="%SystemRoot%\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminal do Windows\command]
+@="wt.exe -d ."
